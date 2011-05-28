@@ -10,13 +10,13 @@ This allows you to create a fan page like button that has none of the fancy stuf
 
 == Description ==
 
-Want to boost your Facebook fan page subscription rate? This plugin makes what should be an easy task, but isn't, an easy one. It enables you to use a shortcode to place a small like button where ever you like without the clutter: stream, faces, count, and all of the other junk that comes with the "fan page like box" ordinarily. Basically, it generates a fan page subscription button that looks *identical* to the one ordinarily only for *sharing* a page (as opposed to actually subscribing).
+Want to boost your Facebook fan page subscription rate? This plugin makes what should be an easy task, but isn't, an easy one. It enables you to use a shortcode to place a small like button where ever you like without the clutter: stream, faces, count, and all of the other junk that comes with the "fan page like box" ordinarily. Basically, it generates a fan page subscription button that looks *identical* to the one ordinarily only for *sharing* a page (as opposed to actually subscribing to the page).
 
 = Features =
 
 * Create a like button that resembles the one that normally *shares* the current page (*as opposed to subscribing to fan page*).
 * Put the like button where ever you  want using the [facebooksimplelike] short code.
-* Easily customize the simple border color.
+* Easily customize the simple iframe background color.
 
 == Screenshots ==
 
@@ -32,6 +32,9 @@ Want to boost your Facebook fan page subscription rate? This plugin makes what s
 
 = 1.0.0 =
 * Release
+
+= 1.0.1 =
+* Removed the __DIR__ constant to increase reverse compatibility with older versions of PHP. (__DIR__ is PHP 5.3 only. A little too fresh. Oops.)
 
 == Installation ==
 
@@ -61,4 +64,4 @@ For more information, please visit http://www.mdpatrick.com/fsl/
 
 = Support =
 
-For now, you may email me at **dan atsymbolgoeshere mdpatrick.com**.
+A contact form is available inside the plugin as well as on my website. You may use it to report bugs, give feedback, or otherwise contact me. I'm also available on [Twitter](http://twitter.com/twitter/) and [Facebook](http://www.facebook.com/pages/mdpatrickcom/154842861208417).

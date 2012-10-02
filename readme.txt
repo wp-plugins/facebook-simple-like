@@ -2,13 +2,17 @@
 Contributors: mdanielpatrick
 Donate link: http://www.mdpatrick.com/donate/
 Tags: facebook, like, social media, social, social bookmarking, fan, fan pages
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 Requires at least: 3.1.2
 Tested up to: 3.1.3
 
 This allows you to create a fan page like button that has none of the fancy stuff normally that exists: stream, profile thumbnail, name. Button only.
 
 == Description ==
+
+**[For $30 I Will Add Your Feature and Provide Support](http://www.mdpatrick.com/donate/)**
+.. or ..
+**[You can make your own feature and create a Pull Request. This plug is open source.](https://github.com/mdpatrick/facebook-simple-like)
 
 Want to boost your Facebook fan page subscription rate? This plugin makes what should be an easy task, but isn't, an easy one. It enables you to use a shortcode to place a small like button where ever you like without the clutter: stream, faces, count, and all of the other junk that comes with the "fan page like box" ordinarily. Basically, it generates a fan page subscription button that looks *identical* to the one ordinarily only for *sharing* a page (as opposed to actually subscribing to the page).
 

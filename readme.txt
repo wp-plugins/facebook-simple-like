@@ -4,13 +4,15 @@ Donate link: http://www.mdpatrick.com/donate/
 Tags: facebook, like, social media, social, social bookmarking, fan, fan pages
 Stable tag: 1.1.0
 Requires at least: 3.1.2
-Tested up to: 3.4.2
+Tested up to: 3.6.1
 
 This allows you to create a fan page like button that has none of the fancy stuff normally that exists: stream, profile thumbnail, name. Button only. Enables widget & shortcodes to make the task easier.
 
 == Description ==
 
-**[For $30 I will add your feature and provide support.](http://www.mdpatrick.com/donate/)**
+Feature request?
+
+**[Consider dropping me a few bucks (donate page)](http://www.mdpatrick.com/donate/)**
 
 .. or ..
 
@@ -27,13 +29,8 @@ Want to boost your Facebook fan page subscription rate? This plugin makes what s
 
 == Screenshots ==
 
-1. The Facebook fan page like button with the default white (#FFFFFF) iframe background, contrasting with the ordinary look of the Facebook "like box."
+1. The simplified Facebook fan page like button (contrast with the ordinary look of the Facebook "like box.")
 2. The settings/configuration page for Facebook Simple Like.
-3. The profile pictures section of your facebook fan page, which is where you find the requisite "profile id" of your fan page.
-
-== Upgrade Notice ==
-= 1.0.0 =
-* Currently we're at first release. Future upgrade information will be listed here.
 
 == Changelog ==
 
@@ -52,6 +49,12 @@ Want to boost your Facebook fan page subscription rate? This plugin makes what s
 * Added a demo area to the settings page.
 * Fixed bug where multiple like buttons caused things to get weird.
 * You no longer have to provide the profile id! This makes things MUCH easier.
+
+= 1.1.1 =
+* Swapped out file_get_contents() with wp_remote_get(). (Thanks, [nikolov](https://github.com/nikolov-tmw)!)
+* CSS file is now more straightforward, defining border color unnecessary.
+* Removed some code rendered unnecessary.
+* Restructured code to make it somewhat more readable. [Read it and send a PR on GitHub!](https://github.com/mdpatrick/facebook-simple-like)
 
 == Installation ==
 
@@ -72,12 +75,6 @@ A recent version of WordPress. The plugin doesn't do anything too fancy, so it p
 = Do you do WordPress consultation work? =
 
 Absolutely! I'm a Zend Certified PHP 5.3 engineer, and can customize or create WordPress plugins and themes. Visit http://www.mdpatrick.com or email me (see support, below) for more details.
-
-= Can I customize what is displayed? =
-
-Yes, you can edit the facebook-simple-like.css file, but pay attention to the comments found within. The border color, however, can be and should be modified from the Settings page of the plugin.
-
-For more information, please visit http://www.mdpatrick.com/fsl/
 
 = Support =
 
